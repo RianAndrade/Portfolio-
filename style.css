@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 80px;
+    margin: 30px 100px;
 }
 
 .Logo {
@@ -42,14 +42,15 @@
 /* Main */
 
 main{
-    background-color: aqua;
-    width: 100vw;
     display: flex;
-    align-items: flex-start;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
 
+}
+
+.home {
+    padding-top: 50px;
 }
 
 main h1 {
@@ -65,14 +66,13 @@ main button {
     color: #fff;
     background-color: #263138;
     border-radius: 20px;
-    margin:100px  0px;
+    margin-top:100px;
     border: none;
     cursor: pointer;
 }
 
 
 main img{
-    top: -100;
     width: 505px;
     height: 497px;
 }
