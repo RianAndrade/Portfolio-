@@ -2,7 +2,8 @@
     font-size: 62.5%;
 
     --cor-primaria: #445964;
-    --cor-secundaria:  #263138;
+    --cor-secundaria:  #262638;
+
 }
 
 * {
@@ -38,6 +39,7 @@ header {
 }
 
 .Logo h1 {
+    font-size: 2.5rem;
     padding-left: 2rem;
     white-space: nowrap;
 }
@@ -73,19 +75,88 @@ main h1 {
 }
 
 main button {
-    width: 310px;
-    height: 65px;
-    font-size: 24px;
+    width: 31rem;
+    height: 6.5rem;
+    font-size: 2rem;
     color: #fff;
     background-color:var(--cor-secundaria);
-    border-radius: 20px;
-    margin-top:100px;
+    border-radius: 2rem;
+    margin-top:6rem;
     border: none;
     cursor: pointer;
 }
 
+.icones {
+    margin-top:4rem;
+}
+
+i {
+    font-size: 4rem;
+}
 
 main img{
     width: 50.5rem;
     height: 49.7rem;
+}
+
+#Secondale {
+    display: flex;
+    justify-content: center;
+}
+
+#Secondale .Profile {
+    width: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.Profile h1{
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+.Profile span{
+    color: var(--cor-secundaria);
+}
+
+.Profile img {
+    width: 20%;
+    max-width: 50.5rem;
+    border-radius: 32% 68% 55% 45% / 37% 45% 55% 63% ;
+    border: none;
+    animation: changeTransform 5s linear infinite alternate;
+    transition: transform 0.5s;
+}
+
+@keyframes changeTransform {
+    0% {
+        transform: translateY(5px);
+        border-radius: 49% 51% 39% 61% / 59% 31% 69% 41% ;
+    }
+    25% {
+        transform: translateY(2.5px);
+        border-radius: 52% 48% 61% 39% / 30% 48% 52% 70% ;
+    }
+    50% {
+        transform: translateY(0px);
+        border-radius: 32% 68% 55% 45% / 37% 45% 55% 63% ;
+    }
+    75% {
+        transform: translateY(-2.5px);
+        border-radius: 52% 48% 49% 51% / 60% 70% 30% 40% ;
+    }
+    100% {
+        transform: translateY(-5px);
+        border-radius: 52% 48% 64% 36% / 32% 49% 51% 68% ;
+    }
+
 }
