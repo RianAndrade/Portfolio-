@@ -128,7 +128,8 @@ main img{
 }
 
 .Profile span
-, .Techs span{
+, .Techs span
+, .text span{
 
     color: var(--cor-secundaria);
 }
@@ -166,6 +167,36 @@ main img{
 }
 .icons i{
     font-size: 6rem;
+}
+
+.text {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.text h1{
+    font-size: 6rem;
+    margin-right: 30rem;
+}
+
+.projeto {
+    background-color: var(--cor-primaria);
+    border-radius: 15px;
+
+}
+
+.container {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 2rem;
 }
 
 
