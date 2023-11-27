@@ -1,6 +1,6 @@
 :root {
     font-size: 62.5%;
-
+    --cor-background: #F9F9F9;
     --cor-primaria: #445964;
     --cor-secundaria:  #262638;
 
@@ -17,6 +17,7 @@
     font-family: Roboto;
     font-style: normal;
     line-height: normal;
+    background-color: var(--cor-background);
     
 }
 
